@@ -9,6 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Projeto_mobile">
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login"></activity>
+        <activity android:name=".IndexActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".UpdateImovelActivity" />
+        <activity android:name=".ViewImovelActivity" />
+        <activity android:name=".CadastroImovelActivity" />
+        <activity android:name=".UpdateUserActivity" />
+        <activity android:name=".ProfileUserActivity" />
+        <activity android:name=".CadastroUserActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
